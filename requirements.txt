@@ -3,3 +3,7 @@ opencv-python==4.10.0.84      # last OpenCV that supports NumPy<2
 ultralytics>=8.3.0,<9         # YOLOv11/12 compatible
 supervision>=0.22.0           # ByteTrack API (new/old both handled by our wrapper)
 pydantic>=2.6,<3              # JSON schema models
+open3d>=0.17.0                # 3D visualization
+torch>=2.0.0                  # For MotionBERT
+scipy>=1.10.0                 # For temporal smoothing
+matplotlib>=3.5.0             # For plotting utilities
